@@ -1,0 +1,25 @@
+﻿<Window x:Class="Projekt.Mitarbeiter_bearbeiten"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt"
+        mc:Ignorable="d"
+        Title="Mitarbeiter_bearbeiten" Height="450" Width="662.191">
+    <Grid Margin="0,0,356.333,-0.333">
+        <Label Content="Vorname:" HorizontalAlignment="Left" Margin="10,18,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nachname:" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top"/>
+        <Label Content="Anrede:" HorizontalAlignment="Left" Margin="10,86,0,0" VerticalAlignment="Top"/>
+        <Label Content="Telefonnummer:" HorizontalAlignment="Left" Margin="10,120,0,0" VerticalAlignment="Top"/>
+        <Label Content="Ort:" HorizontalAlignment="Left" Margin="10,155,0,0" VerticalAlignment="Top"/>
+        <Label Content="Geburtsdatum:" HorizontalAlignment="Left" Margin="10,190,0,0" VerticalAlignment="Top"/>
+        <Label Content="Abteilung:" HorizontalAlignment="Left" Margin="10,224,0,0" VerticalAlignment="Top" />
+        <Label Content="Adresse:" HorizontalAlignment="Left" Margin="10,259,0,0" VerticalAlignment="Top" />
+        <Label Content="Adresszusatz:" HorizontalAlignment="Left" Margin="10,293,0,0" VerticalAlignment="Top" />
+        <Label Content="Sozialversicherungsnummer:" HorizontalAlignment="Left" Margin="10,327,0,0" VerticalAlignment="Top" />
+        <Label Content="IBAN:" HorizontalAlignment="Left" Margin="10,360,0,0" VerticalAlignment="Top" />
+        <Button Content="Mitarbeiter löschen" HorizontalAlignment="Left" Margin="508,376,-355,0" VerticalAlignment="Top"/>
+        <Button Content="Mitarbeiter bearbeiten" HorizontalAlignment="Left" Margin="508,333,-355,0" VerticalAlignment="Top" />
+
+    </Grid>
+</Window>
